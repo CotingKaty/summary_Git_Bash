@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>git bash</title>
+</head>
+  <body>
+  <div class="main">
+      <h1 class="h1"> Git - Bash sintax</h1>
+      <h6 class="h6">Данная работа представляет собой мой собственный конспект и примеры моих работ с помощью терминала Git-Bash</h6>
+      <p class="p"><em><b> pwd </b></em> - путь к папке, в которой мы находимся</p>
+      <img class="img" src="img/pwd.jpg" alt="">
+      <p class="p"><em><b> ls -la</b></em> - выводит список содержимого в папке, в которой мы находимся в столбик</p>
+      <img class="img" src="img/ls -la.jpg" alt="">
+      <p class="p"><em><b>ls -l</b></em> - выводит список содержимого в папке, в которой мы находимся</p>
+      <img class="img" src="img/ls -l.jpg" alt="">
+      <p class="p"><em><b>ls -a</b></em> - отображает скрытые папки</p>
+      <img class="img" src="img/ls -a.jpg" alt="">
+      <p class="p"><em><b>./ </b></em> - указание директории, в которой мы сейчас находимся</p>
+      <img class="img" src="img/1.jpg" alt="">
+      <p class="p"><em><b> ../ </b></em> - указание на родительскую директорию</p>
+      <img class="img" src="img/2.jpg" alt="">
+      <p class="p"><em><b>cd .. </b></em> - переход в родительскую папку (на уровень выше)</p>
+      <img class="img" src="img/cd ...jpg" alt="">
+      <p class="p"><em><b>cd</b></em> - переводит в дочернюю папку</p>
+      <p>, где 1 - название папки</p>
+      <img class="img" src="img/cd.jpg" alt="">
+      <p class="p"><em><b>mkdir</b></em> - создание новой папки</p>
+      <img class="img" src="img/mkdir.jpg" alt="">
+      <p class="p"><em><b>ls -la 1</b></em> - показывает содержимое папки</p>
+      <p>, где 1 - название папки</p>
+      <img class="img" src="img/ls -la 1.jpg" alt="">
+      <p class="p"><em><b>rm -r</b></em> - удаление директория</p>
+      <p>, где 2 - название папки, которую удаляем</p>
+      <img class="img" src="img/rm -r 2.jpg" alt="">
+      <p class="p"><em><b>clear</b></em> - очищает рабочую область терминала (не удаляет)</p>
+      <img class="img" src="img/clear.jpg" alt="">
+      <p class="p"><em><b>history</b></em> - показывает Всю историю терминала</p>
+      <img class="img" src="img/history.jpg" alt="">
+      <p class="p"><em><b>history >> hist.txt</b></em> - создание txt файла со всей историей запросов через терминал</p>
+      <img class="img" src="img/hist.jpg" alt="">
+      <p>Есть несколько способов создания файлов</p>
+      <p class="p"><em><b>touch</b></em> - создание файла</p></p>
+      <p>,где 1.txt - это название создаваемого файла (!обязательно с указанием формата файла)</p>
+      <img class="img" src="img/touch 1.jpg" alt="">
+      <p class="p"><em><b>cat > </b></em> - создание файла (!обязательно указывать формат)</p>
+      <p>где, 2.txt - название создаваемого файла</p>
+      <p> После ввода первой строки и нажатия на Enter, терминал ожидает ввод данных, которые наполнят данный файл (в данном случае это one
+          two,
+          three,
+          four,
+          five,
+          six.
+          </p>
+          <img class="img" src="img/cat 2.jpg" alt="">
+      <p class="p"><em><b>cat</b></em> - вывод содержимого в нутри файла</p>
+      <img class="img" src="img/cat.jpg" alt="">
+      <p class="p"><em><b>cat >></b></em> - дополнение (корректировка) файла внутри терминала (без открытия его в графическом интнрфейсе)</p>
+      <p>, где 2.txt - название файла, который открываем и редактируем</p>
+      <p>1, 2, 3, 4, 5, 6, 7, 8, 9 - информация, которой дополняем данный файл </p>
+      <p>Для выхода из редактирования и сохранения Ctrl + C</p>
+      <img class="img" src="img/cat 1.jpg" alt="">
+      <p>Посмотрим что у нас получилось, для этого восмользуемся командой: </p>
+      <img class="img" src="img/cat duble.jpg" alt="">
+      <p class="p"><em><b>rm</b></em> - удаление файла в папке</p>
+      <img class="img" src="img/rm.jpg" alt="">
+      <p class="p"><em><b>cp</b></em> - копирование файла в папку</p>
+      <p>, где 2.txt - файл, который копируем;</p>
+      <p>1 - название папки (дочерней) куда копируем</p>
+      <img class="img" src="img/cp.jpg" alt="">
+      <p class="p"><em><b>mv</b></em> - перемещение файла</p>
+      <p>, где 1.json - имя файла, который перемещаем, 3 - наименование папки (дочерней), в которую меремещаем</p>
+      <p></p>
+      <img class="img" src="img/mv move.jpg" alt="">
+      <p class="p"><em><b>mv</b></em> - переименование файла</p>
+      <p>, где 1.txt - имя файла до переименования, 2.json - имя файла после переименования</p>
+      <img class="img" src="img/mv rename.jpg" alt="">
+      <p class="p"><em><b>explorer .</b></em> - открывает окно интерфейса с папкой в которой находимся</p>
+      <img class="img" src="img/explorer.jpg" alt="">
+      <p class="p"><em><b></b></em></p>
+      <img class="img" src="img/.jpg" alt="">
+      <p class="p"><em><b>find</b></em> - поиск файлов, директорий и прочего (учитывая регистр) </p>
+      <p class="p"><em><b>find . -name "3"</b></em> - поиск файла в папке, название которого начинается с 3 </p>
+      <p>, где 3 - имя файла</p>
+      <img class="img" src="img/find_3.jpg" alt="">
+      <p class="p"><em><b>find . -type f -name "s*"</b></em> - поиск файла, название которого начинается с "s" </p>
+      <p>, где s - первая буква названия файла</p>
+      <img class="img" src="img/find_f.jpg" alt="">
+      <h6 class="h6">Для поиска по всему компьютеру, необходимо выйти в самый верхний уровень</h6>
+    </div>
+    <div><h1>vim</h1>
+      <h6 class="h6">Vim - терминальный текстовый редактор</h6>
+      <p class="p"><em><b>vim</b></em> - запуск текстового редактора</p>
+      <p class="p"><em><b>Esc + : + wq</b></em> - сохранение и выход из редактирования</p>
+      <p class="p"><em><b>w</b></em> - write (записать); <em><b> q</b></em> - quit (выйти)</p>
+      <p class="p"><em><b>При запросе mv + имя файла в формате json терминал расскрашивает синтаксис и подсвечивает ошибки </b></em> (при их наличии)</p>
+      <p class="p"><em><b>    </b></em></p>
+      <p class="p">   </p>
+    </div>
+    <!-- grep -->
+    <div>
+      <h1>grep</h1>
+      <p class="p"><em><b>grep</b></em> - позволяет искать информацию по текстовому паттерну внутри файла </p>
+      <p class="p"><em><b>grep Anna 4/names.txt</b></em> - поиск в файле 4.txt имени Anna </p>
+      <p>, где 4 - название папки; names.txt - имя файла, в котором производится поиск</p>
+        <img class="img" src="img/grep_1.jpg" alt="">
+      <p class="p"><em><b>grep -r -w Anna</b></em> - выполняется поиск anna без однокоренных слов (w - word) </p>
+      <p class="p"><em><b>grep -r -i anna</b></em> - выполняется поиск anna без учета регистра</p>
+      <img class="img" src="img/grep_2.jpg" alt="">
+      <p class="p"><em><b>grep -r Anna</b></em> - поиск имени Anna во всех файлах текущей директории (r - рекурсивный поиск)</p>
+      <img class="img" src="img/grep_3.jpg" alt="">
+      <p class="p"><em><b>grep -r Anna . > Anna_log.txt</b></em> - создание файла с содержимым по поиску Anna</p>
+      <img class="img" src="img/grep_5.jpg" alt="">
+    </div>
+    <p><h1>Спасибо за внимание!</h1></p>
+    <p>  </p>
+    <p><h6 class="h6">Данные материалы будут пополняться</h6></p>
+    <p><h6 class="h6">Пока Вы можете ознакомиться с другими моими работами на <a href="https://github.com/CotingKaty" target="_blank">GitHub</a></h6></p>
+    </div>
+  </body>
+</html>
