@@ -1,5 +1,8 @@
-# summary_Git_Bash
-My personal summary Git_Bash
+<div>
+<h3 align="center">summary_Git_Bash
+  <img src="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1bT8xerzZ_L4P9KnG-pPrs8VNYfLfH_Xk" title="Git" alt="Git" width="40" height="40"/></h3>
+  </div>
+<h5 align="center">My personal summary Git_Bash</h5>
 
 
 Git-Bash homework подробно
@@ -163,8 +166,6 @@ $ `less 1.txt`
 sss@HOME-PC MINGW64 ~/Documents/Git_Bash/homework/new_1/folder_1/new
 $ `date`
 Thu Feb  9 13:42:03 RTZ 2023
-
-
 
 
 #Задание *
