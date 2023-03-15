@@ -170,7 +170,7 @@ Thu Feb  9 13:42:03 RTZ 2023
 
 #Задание *
 #1) Отправить http запрос на сервер.
-
+```
 sss@HOME-PC MINGW64 ~/Documents/Git_Bash/homework/new_1/folder_1/new
 $ `curl http://162.55.220.72:5005/terminal-hw-request`
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -179,9 +179,9 @@ $ `curl http://162.55.220.72:5005/terminal-hw-request`
 <title>404 Not Found</title>
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
-
-2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 ```
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
 #! /bin/bash
 pwd
 #3) Зайти в папку
